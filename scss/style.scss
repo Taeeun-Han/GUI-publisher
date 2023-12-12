@@ -1,0 +1,119 @@
+@charset 'utf-8';
+
+@import "image-warning.scss";
+@import "gds-layout.scss";
+@import "inference.scss";
+@import "data-preparation.scss";
+@import "training.scss";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Noto Sans", sans-serif;
+	overflow: hidden;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+body {
+	background-color: #172355;
+}
+
+.content {
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.con {
+		width: 1180px;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+
+		header {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			padding: 20px 0px;
+
+			.header_center {
+				.txt {
+					h5 {
+						font: 700 28px/40px "Noto Sans", sans-serif;
+						color: #fff;
+					}
+				}
+			}
+		}
+
+		.index {
+			width: 100%;
+			padding: 20px 0px;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 80px;
+
+			.button-wrap {
+				width: 280px;
+				height: 350px;
+				transition: all 0.5s;
+
+				&:hover {
+					scale: 1.05;
+					transition: all 0.5s;
+				}
+
+				&:hover a button {
+					background-color: #5c72ed;
+					transition: all 0.5s;
+				}
+
+				a {
+					button {
+						width: 100%;
+						height: 100%;
+						box-sizing: border-box;
+						border: none;
+						background-color: rgba(44, 55, 99, 1);
+						color: #fff;
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+						align-items: center;
+						gap: 20px;
+						transition: all 0.5s;
+						padding: 0px;
+
+						p {
+							font: 500 15px/30px "Noto Sans", sans-serif;
+						}
+
+						span {
+							font-size: 50px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,573 @@
+.image-warning {
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.image-warning .button-wrap {
+  width: 200px;
+  height: 250px;
+  transition: all 0.5s;
+}
+.image-warning .button-wrap:hover {
+  scale: 1.05;
+  transition: all 0.5s;
+}
+.image-warning .button-wrap:hover a button {
+  background-color: #5c72ed;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+}
+.image-warning .button-wrap a button {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  background-color: rgb(44, 55, 99);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.5s;
+  padding: 0px;
+}
+.image-warning .button-wrap a button p {
+  font: 500 15px/20px "Noto Sans", sans-serif;
+}
+.image-warning .button-wrap a button span {
+  font-size: 50px;
+}
+
+.gds-layout {
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.gds-layout .button-wrap {
+  width: 200px;
+  height: 250px;
+  transition: all 0.5s;
+}
+.gds-layout .button-wrap:hover {
+  scale: 1.05;
+  transition: all 0.5s;
+}
+.gds-layout .button-wrap:hover a button {
+  background-color: #5c72ed;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+}
+.gds-layout .button-wrap a button {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgb(44, 55, 99);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+}
+.gds-layout .button-wrap a button p {
+  font: 500 15px/30px "Noto Sans", sans-serif;
+}
+.gds-layout .button-wrap a button span {
+  font-size: 50px;
+}
+
+.content .con .inference {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1180px;
+  gap: 30px;
+}
+.content .con .inference .left {
+  width: 55%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.content .con .inference .left .title {
+  color: #fff;
+}
+.content .con .inference .left .title table {
+  width: 100%;
+}
+.content .con .inference .left .title table tr th {
+  vertical-align: middle;
+  font: 700 14px/20px "Noto Sans", sans-serif;
+  width: 25%;
+}
+.content .con .inference .left .title table tr td {
+  vertical-align: middle;
+  padding: 10px 20px;
+  padding-left: 0px;
+}
+.content .con .inference .left .title table tr td input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
+  padding-left: 5px;
+  background-color: transparent;
+  color: #fff;
+}
+.content .con .inference .left .title table tr td input::placeholder {
+  color: #efefef;
+}
+.content .con .inference .left .bottom .bottom-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.content .con .inference .left .bottom .bottom-wrap .img {
+  background-color: #efefef;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.content .con .inference .left .bottom .bottom-wrap .img .crop-box {
+  border: 2px solid #333;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+.content .con .inference .left .bottom .bottom-wrap .buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .con .inference .left .bottom .bottom-wrap .buttons .left-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.content .con .inference .left .bottom .bottom-wrap .buttons .left-buttons button {
+  padding: 20px 10px;
+  border: 1px solid transparent;
+  background-color: #fff;
+  transition: all 0.5s;
+  font: 500 13px/30px "Noto Sans", sans-serif;
+}
+.content .con .inference .left .bottom .bottom-wrap .buttons .left-buttons button:nth-child(1) {
+  background-color: #5c72ed;
+  color: #fff;
+  transition: all 0.5s;
+}
+.content .con .inference .left .bottom .bottom-wrap .buttons .left-buttons button:nth-child(1):hover {
+  background-color: #fff;
+  color: #333;
+  transition: all 0.5s;
+}
+.content .con .inference .left .bottom .bottom-wrap .buttons .left-buttons button:hover {
+  color: #fff;
+  background-color: #5c72ed;
+  transition: all 0.5s;
+}
+.content .con .inference .left .bottom .bottom-wrap .buttons .crop-button {
+  padding: 20px 70px;
+  border: 1px solid transparent;
+  background-color: #fff;
+  transition: all 0.5s;
+  font: 700 14px/30px "Noto Sans", sans-serif;
+}
+.content .con .inference .left .bottom .bottom-wrap .buttons .crop-button:hover {
+  color: #fff;
+  background-color: #5c72ed;
+  transition: all 0.5s;
+}
+.content .con .inference .right {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.content .con .inference .right .crop-img,
+.content .con .inference .right .create-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+.content .con .inference .right .crop-img .img,
+.content .con .inference .right .create-img .img {
+  width: 300px;
+  height: 300px;
+  background-color: #efefef;
+}
+.content .con .inference .right .crop-img .buttons,
+.content .con .inference .right .create-img .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  width: calc(100% - 300px);
+}
+.content .con .inference .right .crop-img .buttons .option-buttons,
+.content .con .inference .right .create-img .buttons .option-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.content .con .inference .right .crop-img .buttons .option-buttons button,
+.content .con .inference .right .create-img .buttons .option-buttons button {
+  width: 100%;
+  padding: 10px 30px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  transition: all 0.5s;
+  font: 500 13px/30px "Noto Sans", sans-serif;
+}
+.content .con .inference .right .crop-img .buttons .option-buttons button:hover,
+.content .con .inference .right .create-img .buttons .option-buttons button:hover {
+  color: #fff;
+  background-color: #5c72ed;
+  transition: all 0.5s;
+}
+.content .con .inference .right .crop-img .buttons button,
+.content .con .inference .right .create-img .buttons button {
+  width: 100%;
+  padding: 10px 30px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  transition: all 0.5s;
+  font: 700 14px/30px "Noto Sans", sans-serif;
+}
+.content .con .inference .right .crop-img .buttons button:hover,
+.content .con .inference .right .create-img .buttons button:hover {
+  color: #fff;
+  background-color: #5c72ed;
+  transition: all 0.5s;
+}
+.content .con .inference .right .create-img .buttons {
+  justify-content: flex-end;
+}
+.content .con .inference .right .create-img .buttons button {
+  width: 100%;
+  padding: 10px 30px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  transition: all 0.5s;
+  font: 700 14px/30px "Noto Sans", sans-serif;
+}
+.content .con .inference .right .create-img .buttons button:hover {
+  color: #fff;
+  background-color: #5c72ed;
+  transition: all 0.5s;
+}
+
+.content .con .data-preparation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1180px;
+  gap: 30px;
+}
+.content .con .data-preparation .left {
+  width: 55%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.content .con .data-preparation .left .title {
+  color: #fff;
+}
+.content .con .data-preparation .left .title table {
+  width: 100%;
+}
+.content .con .data-preparation .left .title table tr th {
+  vertical-align: middle;
+  font: 700 14px/20px "Noto Sans", sans-serif;
+  width: 25%;
+}
+.content .con .data-preparation .left .title table tr td {
+  vertical-align: middle;
+  padding: 10px 20px;
+  padding-left: 0px;
+}
+.content .con .data-preparation .left .title table tr td input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
+  padding-left: 5px;
+  background-color: transparent;
+  color: #fff;
+}
+.content .con .data-preparation .left .title table tr td input::placeholder {
+  color: #efefef;
+}
+.content .con .data-preparation .left .bottom .bottom-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.content .con .data-preparation .left .bottom .bottom-wrap .img {
+  background-color: #efefef;
+  width: 100%;
+  height: 450px;
+}
+.content .con .data-preparation .right {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.content .con .data-preparation .right .cropped-img {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.content .con .data-preparation .right .cropped-img .img {
+  width: 150px;
+  height: 150px;
+  background-color: #efefef;
+}
+.content .con .data-preparation .right .control-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.content .con .data-preparation .right .control-panel .control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.content .con .data-preparation .right .control-panel .control .text {
+  width: 35%;
+  padding: 13px 15px;
+  background-color: #5c72ed;
+}
+.content .con .data-preparation .right .control-panel .control .text p {
+  color: #fff;
+  font: 600 14px/20px "Noto Sans", sans-serif;
+  text-align: center;
+}
+.content .con .data-preparation .right .control-panel .control .move-mouse {
+  width: 50%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .con .data-preparation .right .control-panel .control .move-mouse #draggableContainer {
+  width: 100%;
+  height: 10px;
+  background-color: #fff;
+  position: relative;
+  overflow: visible;
+}
+.content .con .data-preparation .right .control-panel .control .move-mouse #draggableContainer #draggableHandle {
+  width: 10px;
+  height: 25px;
+  background-color: #3498db;
+  cursor: grab;
+  position: absolute;
+  top: -8px;
+  left: 0;
+}
+.content .con .data-preparation .right .control-panel .control .button {
+  width: 15%;
+}
+.content .con .data-preparation .right .control-panel .control .button button {
+  width: 100%;
+  font: 600 14px/20px "Noto Sans", sans-serif;
+  text-align: center;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid transparent;
+}
+.content .con .data-preparation .right .buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.content .con .data-preparation .right .buttons button {
+  width: 100%;
+  padding: 25px;
+  font: 800 14px/20px "Noto Sans", sans-serif;
+  background-color: #fff;
+  border: 1px solid transparent;
+  color: #333;
+  transition: all 0.5s;
+}
+.content .con .data-preparation .right .buttons button:hover {
+  background-color: #5c72ed;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.content .con .training {
+  display: flex;
+  width: 1180px;
+  gap: 30px;
+}
+.content .con .training .left,
+.content .con .training .right {
+  width: 100%;
+}
+.content .con .training .left .img,
+.content .con .training .right .img {
+  width: 100%;
+  height: 500px;
+}
+.content .con .training .left .img {
+  background-color: #5c72ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .con .training .left .img .buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.content .con .training .left .img .buttons button {
+  padding: 20px 50px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  color: #333;
+  font: 700 13px/30px "Noto Sans", sans-serif;
+  transition: all 0.5s;
+}
+.content .con .training .left .img .buttons button:hover {
+  color: #fff;
+  background-color: #5c72ed;
+  border: 1px solid #fff;
+  transition: all 0.5s;
+}
+.content .con .training .right .img {
+  background-color: #fff;
+}
+.content .con button {
+  border: 1px solid transparent;
+  padding: 30px 100px;
+  background-color: #fff;
+  font: 700 15px/30px "Noto Sans", sans-serif;
+  transition: all 0.5s;
+}
+.content .con button:hover {
+  color: #fff;
+  background-color: #5c72ed;
+  border: 1px solid #fff;
+  transition: all 0.5s;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  overflow: hidden;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: #172355;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .con {
+  width: 1180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.content .con header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.content .con header .header_center .txt h5 {
+  font: 700 28px/40px "Noto Sans", sans-serif;
+  color: #fff;
+}
+.content .con .index {
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.content .con .index .button-wrap {
+  width: 280px;
+  height: 350px;
+  transition: all 0.5s;
+}
+.content .con .index .button-wrap:hover {
+  scale: 1.05;
+  transition: all 0.5s;
+}
+.content .con .index .button-wrap:hover a button {
+  background-color: #5c72ed;
+  transition: all 0.5s;
+}
+.content .con .index .button-wrap a button {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: none;
+  background-color: rgb(44, 55, 99);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.5s;
+  padding: 0px;
+}
+.content .con .index .button-wrap a button p {
+  font: 500 15px/30px "Noto Sans", sans-serif;
+}
+.content .con .index .button-wrap a button span {
+  font-size: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

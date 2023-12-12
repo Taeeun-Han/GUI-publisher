@@ -1,0 +1,52 @@
+.image-warning {
+	width: 100%;
+	padding: 20px 0px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+
+	.button-wrap {
+		width: 200px;
+		height: 250px;
+		transition: all 0.5s;
+
+		&:hover {
+			scale: 1.05;
+			transition: all 0.5s;
+		}
+
+		&:hover a button {
+			background-color: #5c72ed;
+			transition: all 0.5s;
+			border: 1px solid transparent;
+		}
+
+		a {
+			button {
+				width: 100%;
+				height: 100%;
+				box-sizing: border-box;
+				border: 1px solid transparent;
+				background-color: rgba(44, 55, 99, 1);
+				color: #fff;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				gap: 20px;
+				transition: all 0.5s;
+				padding: 0px;
+
+				p {
+					font: 500 15px/20px "Noto Sans", sans-serif;
+				}
+
+				span {
+					font-size: 50px;
+				}
+			}
+		}
+	}
+}
