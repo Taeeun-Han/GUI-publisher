@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .image-warning {
   width: 100%;
   padding: 20px 0px;
@@ -477,6 +478,812 @@
   transition: all 0.5s;
 }
 
+.content .con .iw-inference {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1180px;
+  gap: 30px;
+}
+.content .con .iw-inference .left {
+  width: 55%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.content .con .iw-inference .left .title {
+  color: #fff;
+}
+.content .con .iw-inference .left .title table {
+  width: 100%;
+}
+.content .con .iw-inference .left .title table tr th {
+  vertical-align: middle;
+  font: 700 14px/20px "Noto Sans", sans-serif;
+  width: 25%;
+}
+.content .con .iw-inference .left .title table tr td {
+  vertical-align: middle;
+  padding: 10px 20px;
+  padding-left: 0px;
+}
+.content .con .iw-inference .left .title table tr td input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
+  padding-left: 5px;
+  background-color: transparent;
+  color: #fff;
+}
+.content .con .iw-inference .left .title table tr td input::placeholder {
+  color: #efefef;
+}
+.content .con .iw-inference .left .bottom .bottom-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.content .con .iw-inference .left .bottom .bottom-wrap .img {
+  background-color: transparent;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .con .iw-inference .left .bottom .bottom-wrap .img table {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 2px solid #5c72ed;
+}
+.content .con .iw-inference .left .bottom .bottom-wrap .img table tr {
+  transition: 0.5s;
+}
+.content .con .iw-inference .left .bottom .bottom-wrap .img table tr th {
+  vertical-align: middle;
+  font: 700 14px/20px "Noto Sans", sans-serif;
+  padding: 20px 0px;
+  background-color: rgb(44, 55, 99);
+  color: #fff;
+}
+.content .con .iw-inference .left .bottom .bottom-wrap .img table tr td {
+  vertical-align: middle;
+  text-align: center;
+  padding: 15px 0px;
+  font: 500 13px/20px "Noto Sans", sans-serif;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+.content .con .iw-inference .left .bottom .bottom-wrap .img table tr:hover {
+  background: #5c72ed;
+  color: #fff;
+  transition: 0.5s;
+}
+.content .con .iw-inference .left .bottom .bottom-wrap .img table tr:hover td a {
+  color: #fff;
+}
+.content .con .iw-inference .right {
+  width: 45%;
+}
+.content .con .iw-inference .right .right-wrap {
+  width: 100%;
+  height: 450px;
+  border: 1px solid #fff;
+}
+
+.content .con .iw-data-preparation-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1180px;
+  gap: 30px;
+}
+.content .con .iw-data-preparation-image .left {
+  width: 55%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.content .con .iw-data-preparation-image .left .title {
+  color: #fff;
+}
+.content .con .iw-data-preparation-image .left .title table {
+  width: 100%;
+}
+.content .con .iw-data-preparation-image .left .title table tr th {
+  vertical-align: middle;
+  font: 700 14px/20px "Noto Sans", sans-serif;
+  width: 25%;
+}
+.content .con .iw-data-preparation-image .left .title table tr td {
+  vertical-align: middle;
+  padding: 10px 20px;
+  padding-left: 0px;
+}
+.content .con .iw-data-preparation-image .left .title table tr td input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
+  padding-left: 5px;
+  background-color: transparent;
+  color: #fff;
+}
+.content .con .iw-data-preparation-image .left .title table tr td input::placeholder {
+  color: #efefef;
+}
+.content .con .iw-data-preparation-image .left .middle {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 5px;
+}
+.content .con .iw-data-preparation-image .left .middle .buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.content .con .iw-data-preparation-image .left .middle .buttons button {
+  margin-bottom: 5px;
+  padding: 15px 10px;
+}
+.content .con .iw-data-preparation-image .left .middle .buttons button:hover {
+  border: 1px solid transparent;
+}
+.content .con .iw-data-preparation-image .left .middle .buttons button:first-child {
+  margin-top: 10px;
+}
+.content .con .iw-data-preparation-image .left .middle .buttons button:last-child {
+  margin-bottom: 0px;
+}
+.content .con .iw-data-preparation-image .left .middle .buttons-left {
+  order: 1; /* 좌측에 배치하기 위해 순서(order)를 1로 설정 */
+}
+.content .con .iw-data-preparation-image .left .middle .buttons-right {
+  order: 2; /* 우측에 배치하기 위해 순서(order)를 2로 설정 */
+}
+.content .con .iw-data-preparation-image .left .bottom .bottom-wrap {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.content .con .iw-data-preparation-image .left .bottom .bottom-wrap .img {
+  background-color: #fff;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: flex-start;
+}
+.content .con .iw-data-preparation-image .left .bottom .bottom-wrap .img swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.content .con .iw-data-preparation-image .left .bottom .bottom-wrap .img swiper-container swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  cursor: pointer;
+}
+.content .con .iw-data-preparation-image .left .bottom .bottom-wrap .img swiper-container swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+.content .con .iw-data-preparation-image .left .buttons {
+  margin-top: -10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.content .con .iw-data-preparation-image .left .buttons button {
+  padding: 10px 50px;
+}
+.content .con .iw-data-preparation-image .right {
+  width: 45%;
+}
+.content .con .iw-data-preparation-image .right .right-wrap {
+  width: 100%;
+  height: 600px;
+  border: 1px solid #fff;
+  margin-bottom: 10px;
+}
+.content .con .iw-data-preparation-image .right .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.content .con .iw-data-preparation-image .right .buttons button {
+  padding: 10px 50px;
+}
+
+.content .con .iw-data-preparation-marker {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 1180px;
+  gap: 30px;
+}
+.content .con .iw-data-preparation-marker .left {
+  width: 55%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.content .con .iw-data-preparation-marker .left .title {
+  color: #fff;
+}
+.content .con .iw-data-preparation-marker .left .title table {
+  width: 100%;
+}
+.content .con .iw-data-preparation-marker .left .title table tr th {
+  vertical-align: middle;
+  font: 700 14px/20px "Noto Sans", sans-serif;
+  width: 25%;
+}
+.content .con .iw-data-preparation-marker .left .title table tr td {
+  vertical-align: middle;
+  padding: 10px 20px;
+  padding-left: 0px;
+}
+.content .con .iw-data-preparation-marker .left .title table tr td input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
+  padding-left: 5px;
+  background-color: transparent;
+  color: #fff;
+}
+.content .con .iw-data-preparation-marker .left .title table tr td input::placeholder {
+  color: #efefef;
+}
+.content .con .iw-data-preparation-marker .left .bottom .bottom-wrap {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.content .con .iw-data-preparation-marker .left .bottom .bottom-wrap .img {
+  width: 300px;
+  height: 300px;
+  background-color: cadetblue;
+}
+.content .con .iw-data-preparation-marker .left .bottom .bottom-wrap .img img {
+  width: 100%;
+  height: 100%;
+}
+.content .con .iw-data-preparation-marker .left .buttons {
+  margin-top: -20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.content .con .iw-data-preparation-marker .left .buttons button {
+  padding: 10px 50px;
+}
+.content .con .iw-data-preparation-marker .right {
+  width: 45%;
+}
+.content .con .iw-data-preparation-marker .right .right-wrap {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.content .con .iw-data-preparation-marker .right .right-wrap .img {
+  width: 300px;
+  height: 300px;
+  background-color: cadetblue;
+}
+.content .con .iw-data-preparation-marker .right .right-wrap .img img {
+  width: 100%;
+  height: 100%;
+}
+.content .con .iw-data-preparation-marker .right .buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.content .con .iw-data-preparation-marker .right .buttons button {
+  padding: 10px 50px;
+}
+
+.content .con .iw-training-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1180px;
+  gap: 30px;
+}
+.content .con .iw-training-marker .left {
+  width: 55%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.content .con .iw-training-marker .left .title {
+  color: #fff;
+}
+.content .con .iw-training-marker .left .title table {
+  width: 100%;
+}
+.content .con .iw-training-marker .left .title table tr th {
+  vertical-align: middle;
+  font: 700 14px/20px "Noto Sans", sans-serif;
+  width: 25%;
+}
+.content .con .iw-training-marker .left .title table tr td {
+  vertical-align: middle;
+  padding: 10px 20px;
+  padding-left: 0px;
+}
+.content .con .iw-training-marker .left .title table tr td input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
+  padding-left: 5px;
+  background-color: transparent;
+  color: #fff;
+}
+.content .con .iw-training-marker .left .title table tr td input::placeholder {
+  color: #efefef;
+}
+.content .con .iw-training-marker .left .middle {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 5px;
+}
+.content .con .iw-training-marker .left .middle .buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.content .con .iw-training-marker .left .middle .buttons button {
+  margin-bottom: 5px;
+  padding: 15px 10px;
+}
+.content .con .iw-training-marker .left .middle .buttons button:hover {
+  border: 1px solid transparent;
+}
+.content .con .iw-training-marker .left .middle .buttons button:first-child {
+  margin-top: 10px;
+}
+.content .con .iw-training-marker .left .middle .buttons button:last-child {
+  margin-bottom: 0px;
+}
+.content .con .iw-training-marker .left .middle .buttons-left {
+  order: 1; /* 좌측에 배치하기 위해 순서(order)를 1로 설정 */
+}
+.content .con .iw-training-marker .left .middle .buttons-right {
+  order: 2; /* 우측에 배치하기 위해 순서(order)를 2로 설정 */
+}
+.content .con .iw-training-marker .right {
+  width: 45%;
+}
+.content .con .iw-training-marker .right .right-wrap {
+  width: 100%;
+  height: 600px;
+  border: 1px solid #fff;
+  margin-bottom: 10px;
+}
+.content .con .iw-training-marker .right .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.content .con .iw-training-marker .right .buttons button {
+  padding: 10px 50px;
+}
+
+.content .con .iw-training-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1180px;
+  gap: 30px;
+}
+.content .con .iw-training-image .left {
+  width: 55%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.content .con .iw-training-image .left .title {
+  color: #fff;
+}
+.content .con .iw-training-image .left .title table {
+  width: 100%;
+}
+.content .con .iw-training-image .left .title table tr th {
+  vertical-align: middle;
+  font: 700 14px/20px "Noto Sans", sans-serif;
+  width: 25%;
+}
+.content .con .iw-training-image .left .title table tr td {
+  vertical-align: middle;
+  padding: 10px 20px;
+  padding-left: 0px;
+}
+.content .con .iw-training-image .left .title table tr td input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
+  padding-left: 5px;
+  background-color: transparent;
+  color: #fff;
+}
+.content .con .iw-training-image .left .title table tr td input::placeholder {
+  color: #efefef;
+}
+.content .con .iw-training-image .left .middle {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 5px;
+}
+.content .con .iw-training-image .left .middle .buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.content .con .iw-training-image .left .middle .buttons button {
+  margin-bottom: 5px;
+  padding: 15px 10px;
+}
+.content .con .iw-training-image .left .middle .buttons button:hover {
+  border: 1px solid transparent;
+}
+.content .con .iw-training-image .left .middle .buttons button:first-child {
+  margin-top: 10px;
+}
+.content .con .iw-training-image .left .middle .buttons button:last-child {
+  margin-bottom: 0px;
+}
+.content .con .iw-training-image .left .middle .buttons-left {
+  order: 1; /* 좌측에 배치하기 위해 순서(order)를 1로 설정 */
+}
+.content .con .iw-training-image .left .middle .buttons-right {
+  order: 2; /* 우측에 배치하기 위해 순서(order)를 2로 설정 */
+}
+.content .con .iw-training-image .right {
+  width: 45%;
+}
+.content .con .iw-training-image .right .right-wrap {
+  width: 100%;
+  height: 600px;
+  border: 1px solid #fff;
+  margin-bottom: 10px;
+}
+.content .con .iw-training-image .right .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.content .con .iw-training-image .right .buttons button {
+  padding: 10px 50px;
+}
+
+.content .con .iw-explorer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1180px;
+  gap: 10px;
+}
+.content .con .iw-explorer .left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: auto;
+}
+.content .con .iw-explorer .left .title {
+  color: #fff;
+}
+.content .con .iw-explorer .left .title table {
+  width: 100%;
+}
+.content .con .iw-explorer .left .title table tr th {
+  vertical-align: middle;
+  font: 700 14px/20px "Noto Sans", sans-serif;
+  width: 25%;
+}
+.content .con .iw-explorer .left .title table tr td {
+  vertical-align: middle;
+  padding: 10px 20px;
+  padding-left: 0px;
+}
+.content .con .iw-explorer .left .title table tr td input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
+  padding-left: 5px;
+  background-color: transparent;
+  color: #fff;
+}
+.content .con .iw-explorer .left .title table tr td input::placeholder {
+  color: #efefef;
+}
+.content .con .iw-explorer .left .middle {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.content .con .iw-explorer .left .middle .middle-left,
+.content .con .iw-explorer .left .middle .middle-right {
+  width: 100%;
+}
+.content .con .iw-explorer .left .middle .middle-left {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #fff;
+}
+.content .con .iw-explorer .left .middle .middle-left .title {
+  background-color: #fff;
+  padding: 10px;
+}
+.content .con .iw-explorer .left .middle .middle-left .title p {
+  font: 700 15px/20px "Noto Sans", sans-serif;
+  color: #333;
+  text-align: center;
+}
+.content .con .iw-explorer .left .middle .middle-left .table {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  border: 1px solid #fff;
+}
+.content .con .iw-explorer .left .middle .middle-left .table .table-wrap {
+  overflow-y: scroll;
+  max-height: 550px;
+}
+.content .con .iw-explorer .left .middle .middle-left .table .table-wrap table {
+  background-color: #fff;
+}
+.content .con .iw-explorer .left .middle .middle-left .table .table-wrap table tr {
+  transition: all 0.5s;
+}
+.content .con .iw-explorer .left .middle .middle-left .table .table-wrap table tr th {
+  font: 700 14px/20px "Noto Sans", sans-serif;
+  background-color: #efefef;
+  color: #333;
+  padding: 10px 30px;
+  height: 40px;
+}
+.content .con .iw-explorer .left .middle .middle-left .table .table-wrap table tr td {
+  text-align: center;
+  vertical-align: middle;
+  height: 40px;
+  font: 500 13px/20px "Noto Sans", sans-serif;
+  cursor: pointer;
+}
+.content .con .iw-explorer .left .middle .middle-left .table .table-wrap table tr td span {
+  font-size: 18px;
+  margin-right: 3px;
+}
+.content .con .iw-explorer .left .middle .middle-left .table .table-wrap table tr td select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.content .con .iw-explorer .left .middle .middle-left .table .table-wrap table tr td select:hover {
+  border-color: #aaa;
+}
+.content .con .iw-explorer .left .middle .middle-left .table .table-wrap table tr td select:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.content .con .iw-explorer .left .middle .middle-left .table .table-wrap table tr:hover {
+  background-color: rgb(44, 55, 99);
+  transition: all 0.5s;
+  color: #fff;
+}
+.content .con .iw-explorer .left .middle .middle-left .bottom-txt {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #efefef;
+  padding: 7px;
+}
+.content .con .iw-explorer .left .middle .middle-left .bottom-txt p {
+  font: 500 13px/20px "Noto Sans", sans-serif;
+  color: #333;
+  text-align: center;
+}
+.content .con .iw-explorer .left .middle .middle-right {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.content .con .iw-explorer .left .middle .middle-right .img,
+.content .con .iw-explorer .left .middle .middle-right .txt {
+  width: 100%;
+  height: 50%;
+}
+.content .con .iw-explorer .left .middle .middle-right .img img,
+.content .con .iw-explorer .left .middle .middle-right .txt img {
+  width: 100%;
+  height: 100%;
+}
+.content .con .iw-explorer .left .middle .middle-right .txt {
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .con .iw-explorer .left .middle .middle-right .txt p {
+  text-align: center;
+  color: #ddd;
+  font: 500 12px/20px "Noto Sans", sans-serif;
+}
+.content .con .iw-explorer .left .bottom .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .con .iw-explorer .left .bottom .buttons button {
+  padding: 10px 40px;
+}
+.content .con .iw-explorer .right {
+  width: 50%;
+}
+.content .con .iw-explorer .right .right-wrap {
+  width: 100%;
+  margin-top: 70px;
+}
+.content .con .iw-explorer .right .right-wrap .middle {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left,
+.content .con .iw-explorer .right .right-wrap .middle .middle-right {
+  width: 100%;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #fff;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left .title {
+  background-color: #fff;
+  padding: 10px;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left .title p {
+  font: 700 15px/20px "Noto Sans", sans-serif;
+  color: #333;
+  text-align: center;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left .table {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  border: 1px solid #fff;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left .table .table-wrap {
+  overflow-y: scroll;
+  max-height: 550px;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left .table .table-wrap table {
+  background-color: #fff;
+  width: 100%;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left .table .table-wrap table tr {
+  transition: all 0.5s;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left .table .table-wrap table tr th {
+  font: 700 14px/20px "Noto Sans", sans-serif;
+  background-color: #efefef;
+  color: #333;
+  padding: 10px 30px;
+  height: 40px;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left .table .table-wrap table tr td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+  height: 40px;
+  font: 500 13px/20px "Noto Sans", sans-serif;
+  cursor: pointer;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left .table .table-wrap table tr td span {
+  font-size: 18px;
+  margin-right: 3px;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left .table .table-wrap table tr td select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left .table .table-wrap table tr td select:hover {
+  border-color: #aaa;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left .table .table-wrap table tr td select:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left .table .table-wrap table tr:hover {
+  background-color: rgb(44, 55, 99);
+  transition: all 0.5s;
+  color: #fff;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left .bottom-txt {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #efefef;
+  padding: 7px;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-left .bottom-txt p {
+  font: 500 13px/20px "Noto Sans", sans-serif;
+  color: #333;
+  text-align: center;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-right {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-right .img,
+.content .con .iw-explorer .right .right-wrap .middle .middle-right .txt {
+  width: 100%;
+  height: 50%;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-right .img img,
+.content .con .iw-explorer .right .right-wrap .middle .middle-right .txt img {
+  width: 100%;
+  height: 100%;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-right .txt {
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .con .iw-explorer .right .right-wrap .middle .middle-right .txt p {
+  text-align: center;
+  color: #ddd;
+  font: 500 12px/20px "Noto Sans", sans-serif;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -503,6 +1310,20 @@ body {
   background-color: #172355;
 }
 
+/* Webkit (Chrome, Safari 등) 스크롤바 */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #172355;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
 .content {
   width: 100vw;
   height: 100vh;
@@ -521,7 +1342,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 20px 0px;
+  padding: 0px;
 }
 .content .con header .header_center .txt h5 {
   font: 700 28px/40px "Noto Sans", sans-serif;

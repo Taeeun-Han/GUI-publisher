@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인페이지</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- CSS 초기화 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+
+    <!-- Google Fonts - Noto Sans -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&family=Noto+Sans:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Script -->
+    <script defer src="./js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="content">
+
+
+
+        <div class="con">
+
+            <header>
+                <div class="header_center">
+                    <div class="txt">
+                        <h5>Image Warning - Explorer</h5>
+                    </div>
+                </div>
+            </header>
+
+
+            <div class="main_con iw-explorer">
+
+                <div class="left">
+                    <div class="title">
+                        <table>
+                            <tr>
+                                <th scope="row">Data path:</th>
+                                <td>
+                                    <input type="text"
+                                        placeholder="영상 위치 및 정보가 담긴 텍스트 파일 (파일) 또는 숫자로 나뉘어진 하위 폴더들을 포함하는 폴더 (폴더)">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Label path:</th>
+                                <td>
+                                    <input type="text"
+                                        placeholder="라벨 정보가 저장된 파일 (파일, optional) 만약 없다면 모두 None으로 label된 데이터로 취급">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="middle">
+                        <div class="middle-left">
+                            <div class="title">
+                                <p>AAAA/11/abcd.png</p>
+                            </div>
+
+                            <div class="table">
+
+                                <div class="table-wrap">
+                                    <table>
+                                        <tr>
+                                            <th scope="col">Tree</th>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                AAAA
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="material-symbols-outlined">
+                                                    subdirectory_arrow_right
+                                                </span>
+                                                11
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="material-symbols-outlined">
+                                                    subdirectory_arrow_right
+                                                </span>
+                                                12
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>안녕하세요</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ㅇㅇㅇ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ㅇㅇㅇ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ㅇㅇㅇ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ㅇㅇㅇ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ㅇㅇㅇ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ㅇㅇㅇ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ㅇㅇㅇ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ㅇㅇㅇ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ㅇㅇㅇ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ㅇㅇㅇ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ㅇㅇㅇ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ㅇㅇㅇ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ㅇㅇㅇ</td>
+                                        </tr>
+
+                                    </table>
+                                </div>
+
+                                <div class="table-wrap">
+                                    <table>
+                                        <tr>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Label</th>
+                                        </tr>
+                                        <tr>
+                                            <td>abcd.png</td>
+                                            <td>None</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abcf.png</td>
+                                            <td>
+                                                <select id="option" name="option">
+                                                    <option value="Abnormal">Abnormal</option>
+                                                    <option value="option2">option2</option>
+                                                    <option value="option3">option3</option>
+                                                    <option value="option4">option4</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>abce.png</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="bottom-txt">
+                                <p>Total: 3</p>
+                                <p>Normal: 1</p>
+                                <p>Abnormal: 1</p>
+                                <p>None: 1</p>
+                            </div>
+                        </div>
+
+                        <div class="middle-right">
+                            <div class="img">
+                                <img src="./img/iw-explorer/그림2.png" alt="이미지">
+                            </div>
+
+                            <div class="txt">
+                                <p>이미지 정보 보기 선택시 <br> 이미지 크기, 용량, pixel value histogram 등 제시</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bottom">
+                        <div class="buttons">
+                            <button>Save data as</button>
+                            <button>Save label</button>
+                            <button>Compare</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="right">
+
+                    <div class="right-wrap">
+                        <div class="middle">
+                            <div class="middle-left">
+                                <div class="title">
+                                    <p>AAAA/11/abcd.png</p>
+                                </div>
+
+                                <div class="table">
+
+                                    <div class="table-wrap">
+                                        <table>
+                                            <tr>
+                                                <th scope="col">Tree</th>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    AAAA
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <span class="material-symbols-outlined">
+                                                        subdirectory_arrow_right
+                                                    </span>
+                                                    11
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <span class="material-symbols-outlined">
+                                                        subdirectory_arrow_right
+                                                    </span>
+                                                    12
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>안녕하세요</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ㅇㅇㅇ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ㅇㅇㅇ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ㅇㅇㅇ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ㅇㅇㅇ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ㅇㅇㅇ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ㅇㅇㅇ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ㅇㅇㅇ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ㅇㅇㅇ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ㅇㅇㅇ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ㅇㅇㅇ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ㅇㅇㅇ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ㅇㅇㅇ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ㅇㅇㅇ</td>
+                                            </tr>
+
+                                        </table>
+                                    </div>
+
+                                    <div class="table-wrap">
+                                        <table>
+                                            <tr>
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Label</th>
+                                            </tr>
+                                            <tr>
+                                                <td>abcd.png</td>
+                                                <td>None</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abcf.png</td>
+                                                <td>
+                                                    <select id="option" name="option">
+                                                        <option value="Abnormal">Abnormal</option>
+                                                        <option value="option2">option2</option>
+                                                        <option value="option3">option3</option>
+                                                        <option value="option4">option4</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                            <tr>
+                                                <td>abce.png</td>
+                                                <td>Normal</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="bottom-txt">
+                                    <p>Total: 3</p>
+                                    <p>Normal: 1</p>
+                                    <p>Abnormal: 1</p>
+                                    <p>None: 1</p>
+                                </div>
+                            </div>
+
+                            <div class="middle-right">
+                                <div class="img">
+                                    <img src="./img/iw-explorer/그림2.png" alt="이미지">
+                                </div>
+
+                                <div class="txt">
+                                    <p>이미지 정보 보기 선택시 <br> 이미지 크기, 용량, pixel value histogram 등 제시</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

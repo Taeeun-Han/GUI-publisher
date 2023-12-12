@@ -29,3 +29,5 @@ function handleMouseMove(e) {
         console.log(`Adjusted Value: ${percentage.toFixed(2)}%`);
     }
 }
+
+

@@ -2,9 +2,15 @@
 
 @import "image-warning.scss";
 @import "gds-layout.scss";
-@import "inference.scss";
-@import "data-preparation.scss";
-@import "training.scss";
+@import "gds-inference.scss";
+@import "gds-data-preparation.scss";
+@import "gds-training.scss";
+@import "iw-inference.scss";
+@import "iw-data-preparation-image.scss";
+@import "iw-data-preparation-marker.scss";
+@import "iw-training-marker.scss";
+@import "iw-training-image.scss";
+@import "iw-explorer.scss";
 
 * {
 	margin: 0px;
@@ -32,6 +38,21 @@ body {
 	background-color: #172355;
 }
 
+/* Webkit (Chrome, Safari 등) 스크롤바 */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #172355;
+	border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+}
+
+
 .content {
 	width: 100vw;
 	height: 100vh;
@@ -52,7 +73,7 @@ body {
 			width: 100%;
 			display: flex;
 			justify-content: center;
-			padding: 20px 0px;
+			padding: 0px;
 
 			.header_center {
 				.txt {
