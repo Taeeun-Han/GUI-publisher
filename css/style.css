@@ -573,6 +573,14 @@
   width: 100%;
   height: 450px;
   border: 1px solid #fff;
+  margin-bottom: 10px;
+}
+.content .con .iw-inference .right .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.content .con .iw-inference .right .buttons button {
+  padding: 10px 50px;
 }
 
 .content .con .iw-data-preparation-image {
@@ -651,11 +659,13 @@
 .content .con .iw-data-preparation-image .left .bottom .bottom-wrap {
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
 }
 .content .con .iw-data-preparation-image .left .bottom .bottom-wrap .img {
   background-color: #fff;
-  width: 100%;
+  width: 50%;
   height: 300px;
   display: flex;
   align-items: flex-start;
@@ -1289,7 +1299,6 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "Noto Sans", sans-serif;
-  overflow: hidden;
 }
 
 ul,
@@ -1344,9 +1353,40 @@ body {
   justify-content: center;
   padding: 0px;
 }
+.content .con header .header_center {
+  width: 100%;
+}
+.content .con header .header_center .txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .con header .header_center .txt .icons {
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+.content .con header .header_center .txt .icons a {
+  color: #fff;
+}
+.content .con header .header_center .txt .icons a span {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.content .con header .header_center .txt .icons a span:hover {
+  color: #5c72ed;
+  transition: all 0.5s;
+}
 .content .con header .header_center .txt h5 {
   font: 700 28px/40px "Noto Sans", sans-serif;
   color: #fff;
+}
+.content .con header .header_center .txt .right {
+  width: 100px;
 }
 .content .con .index {
   width: 100%;

@@ -17,7 +17,6 @@
 	padding: 0px;
 	box-sizing: border-box;
 	font-family: "Noto Sans", sans-serif;
-	overflow: hidden;
 }
 
 ul,
@@ -52,7 +51,6 @@ body {
 	background-color: #f1f1f1;
 }
 
-
 .content {
 	width: 100vw;
 	height: 100vh;
@@ -76,10 +74,44 @@ body {
 			padding: 0px;
 
 			.header_center {
+				width: 100%;
+
 				.txt {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+
+					.icons {
+						color: #fff;
+						font-size: 30px;
+						display: flex;
+						gap: 15px;
+						justify-content: center;
+						align-items: center;
+						width: 100px;
+
+						a {
+							color: #fff;
+
+							span {
+								cursor: pointer;
+								transition: all 0.5s;
+
+								&:hover {
+									color: #5c72ed;
+									transition: all 0.5s;
+								}
+							}
+						}
+					}
+
 					h5 {
 						font: 700 28px/40px "Noto Sans", sans-serif;
 						color: #fff;
+					}
+
+					.right {
+						width: 100px;
 					}
 				}
 			}

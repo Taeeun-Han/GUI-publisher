@@ -93,11 +93,13 @@
 					.bottom-wrap {
 						width: 100%;
 						display: flex;
+						justify-content: center;
+						align-items: center;
 						gap: 10px;
 
 						.img {
 							background-color: #fff;
-							width: 100%;
+							width: 50%;
 							height: 300px;
 							display: flex;
 							align-items: flex-start;
